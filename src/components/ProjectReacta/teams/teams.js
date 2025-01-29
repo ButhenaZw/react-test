@@ -1,5 +1,7 @@
 import React from "react";
- import "./style.css"
+import "./style.css"
+
+
 const Teams = () => {
     return (
       <>
@@ -11,8 +13,8 @@ const Teams = () => {
           <div className="team-container">
             {/* عضو الفريق 1 */}
             <div className="team-member">
-              <img src="img1.webp" alt="John Doe" className="member-photo" />
-              <h3>saba alhrishat</h3>
+              <img src="IMG_6944.webp" alt="John Doe" className="member-photo" />
+              <h3>Saba Alhrishat</h3>
               <p className="role">Web Developer</p>
               <p className="bio">
               AI coach specializing in Software Engineering, working with robots and passionate about training children.
@@ -27,8 +29,8 @@ const Teams = () => {
               </div>
             </div>
             <div className="team-member">
-              <img src="img2.webp" alt="John Doe" className="member-photo" />
-              <h3>shireen ramadan </h3>
+              <img src="img3.jpeg" alt="John Doe" className="member-photo" />
+              <h3>Shireen Ramadan </h3>
               <p className="role">Web Developer</p>
               <p className="bio">
                 John is an experienced developer with a passion for creating beautiful
@@ -44,8 +46,8 @@ const Teams = () => {
               </div>
             </div>
             <div className="team-member">
-              <img src="img3.webp" alt="John Doe" className="member-photo" />
-              <h3>buthina</h3>
+              <img src="img4.jpeg" alt="John Doe" className="member-photo" />
+              <h3>Buthena Abdullah</h3>
               <p className="role">Web Developer</p>
               <p className="bio">
                 John is an experienced developer with a passion for creating beautiful
@@ -61,8 +63,8 @@ const Teams = () => {
               </div>
             </div>
             <div className="team-member">
-              <img src="img4.webp" alt="John Doe" className="member-photo" />
-              <h3>tamara</h3>
+              <img src="img2.jpg" alt="John Doe" className="member-photo" />
+              <h3>Tamara</h3>
               <p className="role">Web Developer</p>
               <p className="bio">
                 John is an experienced developer with a passion for creating beautiful
@@ -85,3 +87,6 @@ const Teams = () => {
   };
   
   export default Teams;
+  
+
+

@@ -20,11 +20,18 @@ const Contact = () => {
 
   return (
     <div>
+            <div
+        style={{
+          width: "100%",
+          backgroundColor: "#f9b200",
+          height: "3px",
+        }}
+      ></div>
       <section id="contact">
-        <h2>Contact Us</h2>
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Name</label>
-          <input
+      <h2 className="h2l">Contact Us</h2>
+      <form className="formo" onSubmit={handleSubmit}>
+
+          <input className="inputo"
             type="text"
             id="name"
             name="name"
@@ -32,8 +39,8 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
-          <label htmlFor="email">Email</label>
-          <input
+                <label className="labelo" htmlFor="email">Email</label>
+          <input className="inputo"
             type="email"
             id="email"
             name="email"
@@ -41,7 +48,8 @@ const Contact = () => {
             onChange={handleChange}
             required
           />
-          <label htmlFor="message">Message</label>
+                    <label className="labelo" htmlFor="message">Message</label>
+
           <textarea
             id="message"
             name="message"
@@ -49,7 +57,7 @@ const Contact = () => {
             onChange={handleChange}
             required
           ></textarea>
-          <button type="submit">Submit</button>
+          <button className="buttono" type="submit">Submit</button>
         </form>
       </section>
     </div>

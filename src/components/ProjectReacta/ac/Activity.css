@@ -1,13 +1,13 @@
 .activity-container {
   text-align: center;
   padding: 50px 20px;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .activity-title {
   font-size: 2.5em;
   font-weight: bold;
-  color: #333;
+  color: #f9b200;
   margin-bottom: 40px;
 }
 
@@ -20,8 +20,8 @@
 
 .activity-card {
   background: #fff;
-  border: 2px solid #ddd;
-  border-radius: 50%;  /* جعل الشكل دائري */
+  border: 2px solid #f9b200;
+  border-radius: 50%;
   padding: 40px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out;
@@ -38,7 +38,7 @@
 
 .activity-card:hover {
   transform: scale(1.1);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 24px rgba(246, 141, 4, 0.3);
 }
 
 .activity-card img {
@@ -50,11 +50,11 @@
 
 .activity-card h3 {
   font-size: 1.4em;
-  color: #007bff;
+  color: #e27e03;
 }
 
 .activity-card p {
-  color: #555;
+  color: #000000;
   font-size: 1.1em;
   line-height: 1.4;
 }
